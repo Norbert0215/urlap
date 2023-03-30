@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    max-width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+.myRow{
+    display: flex;
+    flex-wrap:wrap ;
+    column-gap: 1rem;
+}
+.mycard{
+    max-width: 300px;
+    border-radius: .4rem;
+    border: 1px solid rgba(100,100,100,1);
+    background-color: rgba(100, 100, 100, 1);
+    margin-top: 1rem;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.mycard img{
+    border-top-left-radius: .4rem;
+    border-top-right-radius: .4rem ;
+}
+.mycard h2{
+    letter-spacing: 0.3rem;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+.mycard h2:hover{
+    color: aqua;
+}
+.mycard p ::first-letter{
+    margin-left: 1rem;
+}
+.textBody{
+    border: 1px solid rgba(100,100,100,1);
+    border-radius: 1rem;
+    color: white;
+    padding: 0.5rem;
+    text-align: justify;
+}
+.textBody h2{
+    margin-bottom: 1rem;
+}
+p{
+    margin-bottom: 1rem;
+}
+.formitems div{
+    margin-bottom: 1rem;
+}
+input, select{
+    width: 100%;
+}
+@media(max-width:684px){
+    .mycard{
+        max-width: 100%;
+    }
+}
